@@ -1,0 +1,13 @@
+{
+  "name": "register-prakard",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "~4.16.1",
+    "node-xlsx": "^0.15.0",
+    "puppeteer": "^1.19.0"
+  }
+}
