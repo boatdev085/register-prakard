@@ -61,6 +61,8 @@ const bindingData = async (browser, puppeteerBrowser, data) => {
             await delay(1000);
             pageRegister.close();
             resolve("success");
+          } else {
+            resolve("error");
           }
         }
       });
